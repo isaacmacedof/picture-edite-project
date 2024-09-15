@@ -1,0 +1,35 @@
+.sidebaridle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  margin-top: 60px;
+  height: 100%;
+  padding: 23px;
+  max-width: 70px;
+  background-color: #60CA99; /* Cor de fundo da barra lateral, substitua conforme necessário */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.image-sideBarIdle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.image-sideBarIdle button {
+  margin-bottom: 42.8px; /* Espaçamento entre as imagens */
+  border: none; /* Remover a borda do botão */
+  background: none; /* Remover o fundo do botão */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transição suave de cor de fundo */
+}
+
+.image-sideBarIdle button:hover {
+  background-color: #094174; /* Cor de fundo ao passar o mouse */
+}
+
+.image-sideBarIdle img {
+  object-fit: cover; /* Manter a proporção da imagem */
+}

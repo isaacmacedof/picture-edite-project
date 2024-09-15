@@ -1,0 +1,8 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('../images/BG-degrade.png');
+  background-size: cover;
+}

@@ -1,0 +1,52 @@
+.render-pictures {
+  display: flex;
+  padding-top: 80px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha se não houver espaço suficiente */
+  justify-content: space-between; /* Distribui as imagens uniformemente na linha */
+  transition: left 0.3s ease;
+  max-width: 1300px;
+}
+
+.images-arts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+		width: 400px;
+		height: 461px;
+    margin-bottom: 20px;
+		border-radius: 5px;
+		background: #FFF;
+		box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.10);
+	}
+
+.images-arts img {
+    max-width: 400px; /* Define uma largura máxima para a imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 24px; /* Espaço abaixo da imagem */
+		margin-top: 19px;
+		border: 1px solid black;
+  }
+
+  .images-arts button {
+    background-color: #002855; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+		width: 230px;
+		height: 40px;
+		font-size: 20px;
+		font-family: Quicksand, sans-serif;
+		font-weight: bold;
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Adiciona cantos arredondados ao botão */
+    cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+    transition: background-color 0.3s; /* Adiciona uma transição suave na cor de fundo do botão */
+  }
+
+	.images-arts button:hover {
+		background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+	}

@@ -1,0 +1,95 @@
+/* Estilo para a barra lateral */
+.sidebar {
+  display: flex;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+  margin-top: 60px;
+  top: 0px;
+  left: 0px;
+  flex-direction: column;
+  align-items: center;
+  width: 358px; /* Ajuste conforme necessário */
+  background-color: #fff; /* Cor de fundo da barra lateral, substitua conforme necessário */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.bar-red {
+  width: 100%;
+  height: 30px; /* Ajuste conforme necessário */
+  background-color: #60CA99; /* Cor da barra vermelha */
+}
+
+.element-side-bar {
+  width: 271px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.text-side-bar {
+  word-wrap: break-word;
+}
+
+.image-sideBar button {
+  padding: 15px; /* Ajuste conforme necessário para aumentar o tamanho do botão */
+}
+
+.text-side-bar {
+  color: #000;
+  font-family: Quicksand;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.image-sideBar {
+  padding: 20px;
+  display: flex;
+  margin-bottom: 42px;
+  align-items: center;
+  cursor: pointer;
+  border: none; /* Remover a borda do botão */
+  background: none; /* Remover o fundo do botão */
+  border-radius: 32px; /* Reduzi o raio da borda para ficar mais suave */
+  transition: background-color 0.3s;
+}
+
+.image-sideBar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.image-sideBar:hover {
+  background-color: rgba(0, 40, 85, 0.20); /* Cor de fundo ao passar o mouse sobre os elementos */
+}
+
+.space-text {
+  margin-left: 40px;
+  margin-right: 50px;
+}
+
+.special-element {
+  border-radius: 32px; /* Reduzi o raio da borda para ficar mais suave */
+  background: rgba(0, 40, 85, 0.10); /* Ajuste a opacidade conforme desejado */
+  padding-left: 2px;
+  padding-top: 40px;
+  padding-bottom: 0;
+  margin-top: 15px;
+  margin-bottom: 42px;
+  max-height: 80px;
+}
+
+.special-element:hover {
+  background: rgba(0, 40, 85, 0.20); /* Ajuste a opacidade conforme desejado */
+}
+
+.bar-red-down {
+  width: 100%;
+  height: 30px; /* Ajuste conforme necessário */
+  background-color: #60CA99; /* Cor da barra vermelha */
+}

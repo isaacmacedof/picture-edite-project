@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../../images/background-login.png');
+    background-size: cover;
+}
+
+.form-login {
+    width: 420px;
+    background: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0px 0px 9.4px 11px rgba(0, 0, 0, 0.25);
+    color: #094174;
+    border-radius: 20px;
+    padding: 0px 40px;
+    padding-top: 20px;
+    margin-top: 45px;
+}
+
+.text-in-register {
+    font-size: 22px;
+    line-height: 130%; /* 28.6px */
+    text-align: center;
+}
+
+.space-padding-top {
+    padding-top: 20px;
+}
+
+.no-padding-top {
+    padding-top: 0px;
+}
+
+.link-login {
+    text-decoration: double;
+    color: #094174;
+}
+
+.bolt {
+    font-weight: bold;
+}
+
+.div-logo-ch {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-ch {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: -62px
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid #094174;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #094174;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #094174;
+}
+
+.input-box input:focus {
+    border: 5px solid #60CA99;
+}
+
+.vetor-login {
+    position: absolute;
+    height: 33px;
+    left: 280px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.login-btn {
+    width: 100%;
+    height: 45px;
+    background: #60CA99;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ececec;
+    font-weight: 600;
+}
+
+.login-btn:hover {
+    background: #094174;
+}
+
+.form-login .remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+.select-styled {
+    width: 340px;
+    height: 100%;
+    font-size: 16px;
+    border: 2px solid #094174;
+    color: #094174;
+    border-radius: 20px;
+    padding: 10px 20px; /* Ajuste conforme necessário */
+}
+
+/* Estilo para ocultar a seta padrão na caixa seletora */
+.select-styled select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 2px;
+    text-overflow: '';
+}
+
+/* Adicionar um ícone ou imagem personalizado se desejar */
+.select-styled:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #60CA99 transparent transparent transparent;
+}
+
+/* Estilo para quando a caixa seletora está focada */
+.select-styled select:focus {
+    outline: none;
+    border-color: #60CA99;
+}
+
+.group-date-acess {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.group-date-acess .input-box {
+    width: 160px;
+}
+
+.group-date-acess .vetor-login {
+    width: 24px;
+    height: 24px;
+    margin-left: -160px;
+}
+
+.disabled-btn {
+    width: 100%;
+    height: 45px;
+    border-radius: 20px;
+    background: #b5b8b6;
+    border: solid 2px #b5b8b6;
+    outline: none;
+    color: #ececec;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-weight: 600;
+    font-size: 16px;
+    cursor: not-allowed;
+}
+
+.login-btn-register {
+    width: 100%;
+    height: 45px;
+    background: #60CA99;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #ececec;
+    font-weight: 600;
+}
